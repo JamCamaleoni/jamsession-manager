@@ -1,0 +1,5 @@
+{
+  "name": "JamSession Manager",
+  "description": "A web application for managing music jam sessions, user registration, and automated band formation.",
+  "requestFramePermissions": []
+}
