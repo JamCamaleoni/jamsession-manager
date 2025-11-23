@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 
-// Credentials provided by user
-const SUPABASE_URL = 'https://kwgvedhtvmaurhejrtek.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_bsOp99zOvYGDeApwqttQEg_1Nsw6kMI';
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_KEY!;
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
